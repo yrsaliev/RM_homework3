@@ -17,7 +17,7 @@ def check_input(x):
         btw_one_and_four(x)
 
     elif 4<=x<7:
-        btw_four_and_seven(x)4
+        btw_four_and_seven(x)
 
     elif 7<=x<10:
         btw_seven_and_ten(x)
@@ -27,19 +27,15 @@ def check_input(x):
 def btw_one_and_four(x):
     s=raw_input("Enter a string: ")
     n=int(raw_input("Enter repetition times: "))
-    while n>0:
+    for repetion in range(0,n,1):
         print s
-        n-=1
 
 def btw_four_and_seven(x):
     m=int(raw_input("Enter Power degree: "))
     print x**m
 
 def btw_seven_and_ten(x):
-    count=10
-    while count>0:
-        x+=1
-        count -=1
+    for repetition in range(x, x+10, 1):
         print x
 
 check_input(x)
