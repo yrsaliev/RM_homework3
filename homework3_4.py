@@ -7,6 +7,7 @@ def unlimited(*args): #just bunch of arguments inputted here, for keyworded argu
     for number in args:
         powering = number**powering
         print powering
+        powering = number
 
 
-unlimited(1,2,3,4,5)
+unlimited(2,2,3,4,5)
