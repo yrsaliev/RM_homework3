@@ -36,6 +36,6 @@ def btw_four_and_seven(x):
 
 def btw_seven_and_ten(x):
     for repetition in range(x, x+10, 1):
-        print x
+        print repetition
 
 check_input(x)
